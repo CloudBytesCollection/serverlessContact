@@ -151,6 +151,10 @@ hr.small {
 
 
 /* Services */
+.h2 {
+	margin: 0 auto;
+}
+
 .services {
 	background: #222;
 }
@@ -184,7 +188,7 @@ footer {
 	text-align: center;
 }
 
-footer h1,footer h2,footer h3,footer h4 {
+footer .h4 {
 	color:#ddd;
 	font-weight:300;
 	margin: 0 auto;

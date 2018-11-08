@@ -7,7 +7,7 @@
 		<meta name="author" content="Coding Raven">
 
 		<!-- Place your own API Call URL below -->
-		 <meta name="ServerlessContact" content="[AWS API Gateway Call URL]"> 
+		 <meta name="ServerlessContact" content="[AWS API Gateway Call URL]">
 
 		 <title>Serverless Contact</title>
 
@@ -22,27 +22,25 @@
 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 	</head>
 	<!-- Navigation -->
-	<nav id="mainNav" class="navbar navbar-fixed-top navbar-index theme-primary">
+	<nav id="mainNav" class="navbar navbar-expand-lg fixed-top theme-primary">
 		<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
-				</button>
-				<div class="rightSide companyNames"><a class="navbar-brand page-scroll" href="#">Serverless Contact</a></div>
-			</div>
+			<a class="navbar-brand page-scroll" href="#">Serverless Contact</a>
+			<button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="navbar-toggler-icon"><i class="fa fa-bars" style="font-size:24px;color:white"></i></span>
+			</button>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-					<li>
-						<a href="#about">About</a>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item mx-auto">
+						<a class="nav-link" href="#about">About</a>
 					</li>
-					 <li>
-						<a href="#services">Services</a>
-					</li> 
-					<li>
-						<a href="#contact">Contact</a>
+					 <li class="nav-item mx-auto">
+						<a class="nav-link" href="#services">Services</a>
+					</li>
+					<li class="nav-item mx-auto">
+						<a class="nav-link" href="#contact">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -69,10 +67,9 @@
     <section id="services" class="theme-primary-light large-section">
         <div class="container">
             <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2 class="section-heading">Services</h2>
+                    <h2 class="h2">Services</h2>
                     <div class="row">
-                        <div class="col-md-4 col-sm-6">
+                        <div class="col-12 col-md-4">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 	<i class="fa fa-circle fa-stack-2x"></i>
@@ -84,7 +81,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-6">
+                        <div class="col-12 col-md-4">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 	<i class="fa fa-circle fa-stack-2x"></i>
@@ -96,7 +93,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-6">
+                        <div class="col-12 col-md-4">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 	<i class="fa fa-circle fa-stack-2x"></i>
@@ -110,8 +107,6 @@
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
             </div>
             <!-- /.row -->
         </div>
@@ -124,7 +119,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<h2 class="section-heading">Contact</h2>
+					<h2 class="h2">Contact</h2>
 				</div>
 			</div>
 			<div id="formGroup" class="row">
@@ -179,21 +174,19 @@
 	<footer class="theme-primary medium-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-10 col-lg-offset-1 text-center">
-					<h4>Serverless Contact</h4><br>
-					<ul class="list-inline">
-						<li>
-							<a href="https://www.facebook.com/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-						</li>
-						<li>
-							<a href="https://twitter.com/"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-						</li>
-						<li>
-							<a href="https://www.instagram.com/"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
-						</li>
-					</ul>
-					<p class="text-muted">Copyright &copy; Your Site</p>
-				</div>
+				<h4 class="h4 col-12 ml-auto">Serverless Contact</h4>
+				<ul class="col-12 list-inline ml-auto p-3">
+					<li class="list-inline-item">
+						<a href="https://www.facebook.com/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+					</li>
+					<li class="list-inline-item p-3">
+						<a href="https://twitter.com/"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://www.instagram.com/"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+					</li>
+				</ul>
+				<p class="text-muted col-12">Copyright &copy; Your Site</p>
 			</div>
 		</div>
 	</footer>
