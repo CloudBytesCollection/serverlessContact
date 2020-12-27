@@ -25,5 +25,4 @@ The best step by step for this can be found on code engine by David Maple, <a hr
 #### Mobile Screenshot
 <img src="./example/screenshots/mobile_screen_capture.png" width="300px">
 
-#### Happy Hacking! 
-#### - Coding Raven
+#### Happy Hacking!
